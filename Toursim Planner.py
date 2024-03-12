@@ -1,26 +1,10 @@
-# Create a tourism system that takes the following inputs from the user:
-# Name
-# Budget
-# Destination
-# Number of nights of stay
-# Option to rent a car
+# You have to make a tourism system- input: name, budget, where to go, how many nights of stay, if want to rent a car or not 
+# Your hotel per night charge is Rs 1200 and cities you deal with are Sri Lanka, Goa, Bali, Ladakh, Jammu
+# Price as per Destination: sri lanka= 40000, goa= 50000, bali=70000, ladakh= 30000, jammu=40000. If not from these cities show Error
+# If wants to book a car, so car per day is Rs.700 If you book a car for 4 or more than 4 days then discount on total = Rs.500, If 6 or more than 6 days= Rs.700 discount, if more than 10 days=Rs.1400 discount
+# Check if total = Budget or less than budget then print enjoy your trip
+# if budget is less and your trip amount is more then print all this but tell them that you need this much more money to plan the trip
 
-# The system should calculate the total cost of the trip based on the provided inputs 
-# Provide appropriate messages according to the budget and chosen options.
-
-# Hotel rate per night is Rs 1200, and the prices for the destinations are as follows:
-# Sri Lanka: Rs 40,000
-# Goa: Rs 50,000
-# Bali: Rs 70,000
-# Ladakh: Rs 30,000
-# Jammu: Rs 40,000
-
-# If user choose to rent a car, it costs Rs 700 per day. Additionally, offer discounts for longer car rentals:
-# 4 or more days: Rs 500 discount
-# 6 or more days: Rs 700 discount
-# 10 or more days: Rs 1400 discount
-
-# After calculating total cost, tell if it fits within user budget. If it doesn't, inform about the additional amount needed to plan the trip.
 
 print('Sat Sri Akal Mitron!')
 hotelrates= {'sri lanka':40000, 'goa':50000, 'bali':70000, 'ladakh':30000, 'jammu':40000}

@@ -8,7 +8,7 @@ if name[0].lower() in 'aeiou':
 else:
     print("Hello" +name +"! Nice to meet you!")
 
-if len(name) > 5:
+if len(name)> 5:
     print("By the way, that's a long name!")
 
 # Write a program that takes a year as input and determines if it is a leap year or not.
