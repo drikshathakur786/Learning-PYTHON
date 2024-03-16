@@ -10,4 +10,3 @@ if len(char)==1:
         print('Please Enter a alphabet only.')
 else:
     print('Please enter a single char only')
-

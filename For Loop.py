@@ -47,26 +47,35 @@ if is_prime==True:
 # How many even number that are prime- Only 2
 # Then why are we checking?
 num=4
-
 if num==2:
     print('Prime')
 elif num%2==0:
     print('Not Prime')
 else:
     is_prime=True
-
-
     for i in range(3,num,2):
         if num%i==0:
             is_prime=False
             print('Not Prime')
             break
-
     if is_prime==True:
         print('prime')
-
+        
 # Change this program You have to print all the prime numbers from 1-100 by modifying this code.
-
+for num in range(1,101):
+    if num==2:
+        print(num,'PRIME')
+    elif num%2==0:
+        print(num,'NOT PRIME')
+    else:
+        is_prime = True
+        for i in range (3,num,2):
+            if num%i ==0:
+                is_prime = False
+                print(num,'NOT PRIME')
+                break
+        if is_prime:
+            print(num,'PRIME')
 
 
 
