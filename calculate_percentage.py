@@ -37,3 +37,6 @@ for student_marks in marks:
 
 print("Output list:")
 print(output)
+
+#for i in range(6):
+#    print(marks)
